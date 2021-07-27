@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+    <title>Shopping cart</title>
+</head>
+
+<body>
+    <div class="title-container">
+        <h1 class="title">Shopping cart </h1>
+        <p class="title_description">Go My Code <u>DOM</u> workshop</p>
+        <p class="title_description">ismail ben ali </p>
+
+    </div>
+
+    <div class="cart">
+        <div class="cart__container">
+            <div class="cart__titles">
+                <div class="cart__titles__product">
+                    <span>PRODUCT</span>
+                </div>
+                <div class="cart__titles__PRICE">
+                    <span>PRICE</span>
+                </div>
+                <div class="cart__titles__QUANTITY">
+                    <span>QUANTITY</span>
+                </div>
+                <div class="cart__titles__REMOVE">
+                    <span>REMOVE/LIKE</span>
+                </div>
+            </div>
+
+            <div class="product-1" id="p1">
+
+                <div class="product1__description">
+
+                    <div class="product1__image">
+                        <img src="/images/item-1.png" alt="" width="100px" height="100px">
+                    </div>
+                    <h4>
+                        Timex Unisex Originals
+                    </h4>
+                    <h5>Category: shoes, athletic</h5>
+
+                </div>
+
+                <div class="product1__price">
+                    <h1>$74</h1>
+                </div>
+                <div class="product1__quantity">
+                    <span class="material-icons rm">
+                        remove_circle
+                    </span>
+                    <input class="quantity" type="number" value="1" max="99" min="1">
+                    <span class="material-icons add">
+                        add_circle
+                    </span>
+
+                </div>
+                <div class="product1__Remove">
+                    <button class="delete"> <span class="material-icons rm md-48">
+                            delete
+                        </span>
+                    </button>
+                    <button class="like">
+                        <span class="material-icons recemendet">
+                            recommend
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+            <hr>
+            <div class="product-1" id="p2">
+
+                <div class="product1__description">
+
+                    <div class="product1__image">
+                        <img src="/images/item-1.png" alt="" width="100px" height="100px">
+                    </div>
+                    <h4>
+                        Timex Unisex Originals
+                    </h4>
+                    <h5>Category: shoes, athletic</h5>
+
+                </div>
+
+                <div class="product1__price">
+                    <h1>$74</h1>
+                </div>
+                <div class="product1__quantity">
+                    <span class="material-icons rm">
+                        remove_circle
+                    </span>
+                    <input class="quantity"type="number" value="1" max="99" min="1">
+                    <span class="material-icons add">
+                        add_circle
+                    </span>
+
+                </div>
+                <div class="product1__Remove">
+                    <button class="delete"> <span class="material-icons rm md-48">
+                            delete
+                        </span>
+                    </button>
+                    <button class="like">
+                        <span class="material-icons recemendet">
+                            recommend
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+            <hr>
+            <div class="total">
+                <span>Total : </span>
+                <span class="total-value">$148</span>
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
